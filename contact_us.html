@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <main id="main" class="h-96" style="min-height: 550px;">
+    <nav id='nav' class="fixed flex xl:justify-around justify-between items-center w-full pt-4 pb-4">
+      <div>
+        <img id="logo" class=" ml-7" alt="Logotipo de la empresa">
+      </div>
+      <div id="menu" class="text-white text-lg font-bold">
+        <ul class="flex">
+          <li class="mr-7"><a href="index.html" id="prueba">Inicio</a></li>
+          <li class="mr-7"><a href="house.html">Casas</a></li>
+          <li class="mr-7"><a href="contact_us.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="flex flex-col pt-60 h-96 flex items-center justify-center text-white" >
+      <div><h1 class="text-6xl font-bold text-white">Contacto.</h1></div>
+    </header>
+  </main>
+
+
+
+  <section id='section' class="mt-14 mb-14 px-0 xl:px-32 2xl:px-52 m-auto">
+    <h2 class="text-center text-3xl font-bold mb-7 border-b-2 border-black w-96 m-auto">Formulario de contacto</h2>
+    <div class="flex justify-center xl:justify-between w-full">
+      <div class="pr-2 hidden xl:block"><img src="img/formulario.jpg" alt=""></div>
+      <div class="pl-2 w-2/4">
+        <input class="bg-white border-solid border-2 border-black w-full h-12 mb-10 pl-4 border-b-4 shadow-2xl" type="text" placeholder="Nombre"><br>
+        <input class="bg-white border-solid border-2 border-black w-full h-12 mb-10 pl-4 border-b-4 shadow-2xl" type="text" placeholder="Apellidos"><br>
+        <input class="bg-white border-solid border-2 border-black w-full h-12 mb-10 pl-4 border-b-4 shadow-2xl" type="text" placeholder="Correo"><br>
+        <input class="bg-white border-solid border-2 border-black w-full h-12 mb-10 pl-4 border-b-4 shadow-2xl" type="text" placeholder="Telefono">
+        <textarea class="bg-white border-solid border-2 border-black w-full mb-4 pl-4 pt-4 border-b-4 shadow-2xl" placeholder="Mensaje" name="" id="" cols="30" rows="10"></textarea>
+        <button class="bg-white border-solid border-2 border-black w-44 mb-10 border-b-4 shadow-2xl h-10" type="submit">Enviar</button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="bg-black h-80 flex flex-wrap justify-around items-center text-white text-sm">
+
+    <div class="flex-col justify-center items-center">
+      <div>
+        <img class="w-24 ml-8" src="img/img_index/alfred-logomark-favicon-transparent.png" alt="">
+      </div>
+      <div class="flex">
+        <img class="ml-4" src="img/img_index/facebook (4).png" alt="">
+        <img class="ml-4" src="img/img_index/instagram (3).png" alt="">
+        <img class="ml-4" src="img/img_index/pinterest (1).png" alt="">
+      </div>
+    </div>
+    
+    <div class="flex flex-col" >
+        <p class="mb-4">Actualizaciones de Alfredo</p>
+        <p class="mb-4">Consultas sobre empresas y relaciones publicas</p>
+        <p class="mb-4">prensa@holaalfred.com</p>
+    </div>
+
+    <div>
+        <p class="mb-4">Residentes de California</p>
+        <p class="mb-4">Política de cookies</p>
+        <p class="mb-4">Principios de la Comunidad</p>
+    </div>
+
+    <div>
+      <p class="mb-4">© 2021 Hola Alfredo</p>
+      <p class="mb-4">Condiciones de uso</p>
+      <p class="mb-4">Política de privacidad</p>
+    </div>
+  </footer>
+  <script src="src/main.js"></script>
+</body>
+</html>
