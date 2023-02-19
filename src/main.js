@@ -38,7 +38,7 @@ window.addEventListener('scroll', mostrasScroll)
 
 
 
-main.style.backgroundImage = 'url(img/img_index/header_img_2.jpg)'
+main.style.backgroundImage = 'url(img/img_index/header_img_3.jpg)'
 main.style.backgroundRepeat= "no-repeat";
 main.style.backgroundPosition= "center";
 main.style.backgroundSize= "cover";
